@@ -36,7 +36,7 @@ should you have any questions.</p-->
     </div>
     <div class="row">
         <?php echo $form->labelEx($notation,'note'); ?>
-        <?php echo $form->textField($notation,'note'); ?>
+        <?php echo $form->textField($notation,'note', array('size' => 1, 'maxlength' => 2,)); ?>
         <?php echo $form->error($notation,'note'); ?>
     </div>
 

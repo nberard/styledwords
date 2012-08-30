@@ -575,3 +575,69 @@ Stack trace:
 REQUEST_URI=/styledWords/site/addRecord?note=1
 in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (32)
 in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 10:42:42 [error] [php] Undefined index: words (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord?note=1
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (35)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 11:06:19 [error] [php] Undefined index: words (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord?note=1
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (35)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:20:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:20:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:20:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:21:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:21:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:21:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:21:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:22:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:22:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'styled.word' n'existe pas. The SQL statement executed was: SHOW COLUMNS FROM `word`.
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-core\giixModel\GiixModelCode.php (67)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 16:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/30 16:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---

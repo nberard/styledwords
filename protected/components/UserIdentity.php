@@ -30,7 +30,7 @@ class UserIdentity extends CUserIdentity
 //            $this->errorCode=self::ERROR_NONE;
 //        return !$this->errorCode;
         $user = User::model()->findByAttributes(array('username' => $this->username));
-//        echo "<br/>compare ".md5(Yii::app()->params["salt"].$this->password)." and ".$user['password'];
+        echo "<br/>compare ".md5(Yii::app()->params["salt"].$this->password)." and ".$user['password'];
         if($user == null)
             $this->errorCode=self::ERROR_USERNAME_INVALID;
         else if($user['password']!==md5(Yii::app()->params["salt"].$this->password))

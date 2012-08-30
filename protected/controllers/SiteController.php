@@ -27,50 +27,10 @@ class SiteController extends Controller
     
     public function actionAddRecord()
     {
+        echo "test";
         $hasErrors = false;
-        $notation = new Notation;
-        $notation->note = $_GET['note'];
-        if($notation->validate(array('note')))
-        {
-            $words = explode(" ", $_POST['words']);
-            $wordsTocreate = array();
-            $rank = 0;
-            $wordModel = new Word;
-            $wordInRecordModel = new WordInRecord;
-            foreach ($words as $word)
-            {
-                $wordModel->word = $word;
-                if(!$wordModel->validate(array('word')))
-                {
-                    $hasErrors = true;
-                    break;
-                }
-                else 
-                {
-                    $wordInDB = $wordModel->findByAttributes(array('word' => $word));
-                    if($wordInDB == null)
-                        $wordsTocreate[$rank] = $word;
-                    else $wordsAlreadyCreated[$rank] = $wordInDB->id;
-                }
-                $rank++;    
-            }
-            if(count($wordsAlreadyCreated) == count($words))
-            {
-                $alreadyExists = false;
-                foreach($wordsAlreadyCreated as $rankOfWord => $wordAlreadyCreatedId)
-                {
-                    $wordInRecordInDB = $wordInRecordModel->findByAttributes(array(
-                                                                'word_id' => $wordAlreadyCreatedId,
-                                                                'rank'    => $rankOfWord,
-                                                            ));
-//                    if($wordInRecordDB)
-                }
-            }
-        }
-        else $hasErrors = true;
         if(!$hasErrors)
-        {
-            
+        {   
             Yii::app()->user->setFlash('success', "Record successfuly added");
         }    
         else Yii::app()->user->setFlash('error', "Error adding your record");
