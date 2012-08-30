@@ -1,5 +1,4 @@
 <?php
-//test git
 //update user set password=md5('Zh8PCtCchuySJJpxeclipse') where username='admin';
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
