@@ -5,7 +5,7 @@ CREATE TABLE user (
     email VARCHAR(128) NOT NULL
 );
 
-INSERT INTO user (username, password, email) VALUES ('admin', md5('eclipse'), 'berard.nicolas@gmail.com');
+INSERT INTO user (username, password, email) VALUES ('admin', md5('Zh8PCtCchuySJJpxeclipse'), 'berard.nicolas@gmail.com');
 
 /*
 CREATE TABLE word (
