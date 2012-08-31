@@ -17,8 +17,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'word_id'); ?>
-		<?php echo $form->textField($model,'word_id'); ?>
+		<?php echo $form->label($model,'record_id'); ?>
+		<?php echo $form->textField($model,'record_id'); ?>
 	</div>
 
 	<div class="row">

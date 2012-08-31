@@ -13,8 +13,8 @@
 	<?php echo CHtml::encode($data->record); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('user_id')); ?>:</b>
-	<?php echo CHtml::encode($data->user_id); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('author_id')); ?>:</b>
+	<?php echo CHtml::encode($data->author_id); ?>
 	<br />
 
 

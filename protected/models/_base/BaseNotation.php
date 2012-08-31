@@ -10,11 +10,11 @@
  * followed by relations of table "notation" available as properties of the model.
  *
  * @property integer $id
- * @property integer $word_id
+ * @property integer $record_id
  * @property integer $user_id
  * @property integer $note
  *
- * @property Word $word
+ * @property Record $record
  * @property User $user
  */
 abstract class BaseNotation extends GxActiveRecord {
@@ -37,15 +37,15 @@ abstract class BaseNotation extends GxActiveRecord {
 
 	public function rules() {
 		return array(
-			array('word_id, user_id, note', 'required'),
-			array('word_id, user_id, note', 'numerical', 'integerOnly'=>true),
-			array('id, word_id, user_id, note', 'safe', 'on'=>'search'),
+			array('record_id, user_id, note', 'required'),
+			array('record_id, user_id, note', 'numerical', 'integerOnly'=>true),
+			array('id, record_id, user_id, note', 'safe', 'on'=>'search'),
 		);
 	}
 
 	public function relations() {
 		return array(
-			'word' => array(self::BELONGS_TO, 'Word', 'word_id'),
+			'record' => array(self::BELONGS_TO, 'Record', 'record_id'),
 			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 		);
 	}
@@ -58,10 +58,10 @@ abstract class BaseNotation extends GxActiveRecord {
 	public function attributeLabels() {
 		return array(
 			'id' => Yii::t('app', 'ID'),
-			'word_id' => null,
+			'record_id' => null,
 			'user_id' => null,
 			'note' => Yii::t('app', 'Note'),
-			'word' => null,
+			'record' => null,
 			'user' => null,
 		);
 	}
@@ -70,7 +70,7 @@ abstract class BaseNotation extends GxActiveRecord {
 		$criteria = new CDbCriteria;
 
 		$criteria->compare('id', $this->id);
-		$criteria->compare('word_id', $this->word_id);
+		$criteria->compare('record_id', $this->record_id);
 		$criteria->compare('user_id', $this->user_id);
 		$criteria->compare('note', $this->note);
 

@@ -1,35 +1,21 @@
 $(document).ready(function(){
-	$(".errorMessage").hide();
-//	$('#note').blur(function () {
-//		if(validate.note($('#note').val()))
-//			$("#note_em").hide();
-//		else $("#note_em").show();
-//	});
-	$('#words').blur(function () {
-		if(validate.words($('#words').val())) {
-			$("#words_em").hide();
-			$("#words").removeClass('error').addClass('success');
-			$("label[for=words]").removeClass('error');
-		}
-		else {
-			$("#words_em").show();
-			$("#words").removeClass('success').addClass('error');
-			$("label[for=words]").removeClass('success').addClass('error');			
-		}
+	$("ul.notes-echelle").addClass("js");
+	// On passe chaque note à l'état grisé par défaut
+	$("ul.notes-echelle li").addClass("note-off");
+	// Au survol de chaque note à la souris
+	$("ul.notes-echelle li").mouseover(function() {
+		// On passe les notes supérieures à l'état inactif (par défaut)
+		$(this).nextAll("li").addClass("note-off");
+		// On passe les notes inférieures à l'état actif
+		$(this).prevAll("li").removeClass("note-off");
+		// On passe la note survolée à l'état actif (par défaut)
+		$(this).removeClass("note-off");
 	});
-	$('#form-add-record').submit(function () {
-		return /*validate.note($('#note').val()) && */validate.words($('#words').val());
+	// Lorsque l'on sort du sytème de notation à la souris
+	$("ul.notes-echelle").mouseout(function() {
+		// On passe toutes les notes à l'état inactif
+		$(this).children("li").addClass("note-off");
+		// On simule (trigger) un mouseover sur la note cochée s'il y a lieu
+		$(this).find("li input:checked").parent("li").trigger("mouseover");
 	});
 });
-
-if(!window.validate) {
-	window.validate = {};
-//	validate.note = function(note) {
-//		var noteInt = parseInt(note);
-//		return noteInt >= 0 && noteInt <= 10;
-//	}
-	
-	validate.words = function(words) {
-		return words.match(/^([\w']+\s?)+$/);
-	}
-}

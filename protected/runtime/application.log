@@ -641,3 +641,547 @@ Stack trace:
 REQUEST_URI=/styledWords/addRecord
 HTTP_REFERER=http://127.0.0.1/styledWords/
 ---
+2012/08/30 16:36:00 [error] [php] include(Word.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(26): model()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): model()
+#3 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(165): Notation->getRelationLabel()
+#4 D:\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1173): Notation->getAttributeLabel()
+#5 D:\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(548): activeLabel()
+#6 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\notation\_search.php(20): CActiveForm->label()
+#7 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#8 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): NotationController->renderInternal()
+#9 D:\yii-1.1.12.b600af\framework\web\CController.php(870): NotationController->renderFile()
+#10 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\notation\admin.php(40): NotationController->renderPartial()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#12 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): NotationController->renderInternal()
+#13 D:\yii-1.1.12.b600af\framework\web\CController.php(870): NotationController->renderFile()
+#14 D:\yii-1.1.12.b600af\framework\web\CController.php(783): NotationController->renderPartial()
+#15 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\NotationController.php(143): NotationController->render()
+#16 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): NotationController->actionAdmin()
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#18 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): NotationController->runAction()
+#19 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#21 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): NotationController->filterAccessControl()
+#22 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#24 D:\yii-1.1.12.b600af\framework\web\CController.php(266): NotationController->runActionWithFilters()
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): NotationController->run()
+#26 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#27 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#28 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/notation/admin
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php (26)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php (119)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php (165)
+2012/08/30 16:51:07 [error] [php] Undefined variable: notation (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:37)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (37)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 17:23:42 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.visible" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWidgetFactory.php(162): CComponent->__set('visible', true)
+#1 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\site\index.php(32): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(66): CController->render('index', Array)
+#9 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#14 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/styledWords/site/index
+---
+2012/08/30 17:25:37 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.visible" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWidgetFactory.php(162): CComponent->__set('visible', true)
+#1 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\site\index.php(32): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(66): CController->render('index', Array)
+#9 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#14 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/styledWords/site/index
+---
+2012/08/30 17:25:42 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.visible" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWidgetFactory.php(162): CComponent->__set('visible', true)
+#1 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\site\index.php(32): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(66): CController->render('index', Array)
+#9 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#14 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#15 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/styledWords/site/index
+---
+2012/08/30 17:37:55 [error] [php] Undefined variable: hasErrors (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:33)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 18:14:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(42): CWebUser->__get('username')
+#2 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#8 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---
+2012/08/30 18:20:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(42): CWebUser->__get('username')
+#2 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#8 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---
+2012/08/30 18:22:01 [error] [php] Undefined index: Record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/30 18:23:45 [error] [php] Undefined variable: record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\components\UserIdentity.php:41)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#1 D:\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(137): LoginForm->validate()
+#3 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/login
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\components\UserIdentity.php (41)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\models\LoginForm.php (52)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (137)
+2012/08/30 18:24:14 [error] [exception.CException] exception 'CException' with message 'Property "User.title" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\components\UserIdentity.php(42): CActiveRecord->__get('title')
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 D:\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 D:\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 D:\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(137): CModel->validate()
+#7 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/styledWords/site/login
+HTTP_REFERER=http://127.0.0.1/styledWords/site/login
+---
+2012/08/31 09:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 09:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/index.php
+---
+2012/08/31 14:22:42 [error] [php] Undefined index: Record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 14:38:00 [error] [php] Undefined index: Record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 15:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/index.php
+---
+2012/08/31 15:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/index.php
+---
+2012/08/31 15:21:32 [error] [php] Undefined index: Record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 15:22:19 [error] [php] Undefined index: Record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:33)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 15:22:52 [error] [php] Undefined variable: record (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\site\index.php:33)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(44): SiteController->render()
+#3 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\views\site\index.php (33)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (44)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 15:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+---
+2012/08/31 15:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+---
+2012/08/31 15:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+---
+2012/08/31 15:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in D:\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('site')
+#1 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('site')
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/index')
+#3 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/styledWords/site/site/index
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---
+2012/08/31 15:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addRecord".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('addRecord')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 15:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in D:\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('site')
+#1 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('site')
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/index')
+#3 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/styledWords/site/site/index
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---
+2012/08/31 16:24:20 [error] [exception.CException] exception 'CException' with message 'recordExists and its behaviors do not have a method or closure named "model".' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\validators\recordExists.php(7): CComponent->__call('model', Array)
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\validators\recordExists.php(7): recordExists->model()
+#2 D:\yii-1.1.12.b600af\framework\validators\CValidator.php(214): recordExists->validateAttribute(Object(Record), 'record')
+#3 D:\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(Record), NULL)
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(35): CActiveRecord->save()
+#6 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#11 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#12 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 16:24:56 [error] [exception.CException] exception 'CException' with message 'Property "recordExists.record" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\extensions\validators\recordExists.php(7): CComponent->__get('record')
+#1 D:\yii-1.1.12.b600af\framework\validators\CValidator.php(214): recordExists->validateAttribute(Object(Record), 'record')
+#2 D:\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(Record), NULL)
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#4 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(35): CActiveRecord->save()
+#5 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#10 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#11 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 16:29:20 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "getErrors".' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(49): CComponent->__call('getErrors', Array)
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(49): CWebUser->getErrors()
+#2 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#8 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 16:33:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "/styledWords/".' in D:\yii-1.1.12.b600af\framework\web\CController.php:879
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('/styledWords/', Array, true)
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(52): CController->render('/styledWords/', Array)
+#2 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#8 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 16:34:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "/styledWords/site/index".' in D:\yii-1.1.12.b600af\framework\web\CController.php:879
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('/styledWords/si...', Array, true)
+#1 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php(52): CController->render('/styledWords/si...', Array)
+#2 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#8 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://127.0.0.1/styledWords/
+---
+2012/08/31 16:44:04 [error] [php] Undefined offset: 0 (C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/site/addRecord
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\protected\controllers\SiteController.php (52)
+in C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php (13)
+2012/08/31 16:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/etoiles.gif".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('css/etoiles.gif')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/css/etoiles.gif
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---
+2012/08/31 16:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/etoiles.gif".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('css/images/etoi...')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-5.3.9\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/css/images/etoiles.gif
+HTTP_REFERER=http://127.0.0.1/styledWords/site/index
+---

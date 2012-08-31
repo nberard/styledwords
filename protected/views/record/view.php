@@ -23,6 +23,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'record',
-		'user_id',
+		'author_id',
 	),
 )); ?>

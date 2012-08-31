@@ -25,4 +25,11 @@
 		<nature>org.eclipse.php.core.PHPNature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>lib_framework</name>
+			<type>2</type>
+			<location>D:/yii-1.1.12.b600af/framework</location>
+		</link>
+	</linkedResources>
 </projectDescription>

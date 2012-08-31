@@ -11,8 +11,9 @@
  *
  * @property integer $id
  * @property string $record
- * @property integer $user_id
+ * @property integer $author_id
  *
+ * @property Notation[] $notations
  * @property User $user
  */
 abstract class BaseRecord extends GxActiveRecord {
@@ -35,15 +36,16 @@ abstract class BaseRecord extends GxActiveRecord {
 
 	public function rules() {
 		return array(
-			array('record, user_id', 'required'),
-			array('user_id', 'numerical', 'integerOnly'=>true),
+			array('record, author_id', 'required'),
+			array('author_id', 'numerical', 'integerOnly'=>true),
 			array('record', 'length', 'max'=>1024),
-			array('id, record, user_id', 'safe', 'on'=>'search'),
+			array('id, record, author_id', 'safe', 'on'=>'search'),
 		);
 	}
 
 	public function relations() {
 		return array(
+			'notations' => array(self::HAS_MANY, 'Notation', 'record_id'),
 			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 		);
 	}
@@ -57,7 +59,8 @@ abstract class BaseRecord extends GxActiveRecord {
 		return array(
 			'id' => Yii::t('app', 'ID'),
 			'record' => Yii::t('app', 'Record'),
-			'user_id' => null,
+			'author_id' => Yii::t('app', 'Author'),
+			'notations' => null,
 			'user' => null,
 		);
 	}
@@ -67,7 +70,7 @@ abstract class BaseRecord extends GxActiveRecord {
 
 		$criteria->compare('id', $this->id);
 		$criteria->compare('record', $this->record, true);
-		$criteria->compare('user_id', $this->user_id);
+		$criteria->compare('author_id', $this->author_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

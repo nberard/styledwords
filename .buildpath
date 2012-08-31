@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
-	<buildpathentry external="true" kind="lib" path="D:/yii-1.1.12.b600af/framework"/>
-	<buildpathentry kind="src" path=""/>
+	<buildpathentry kind="src" path="lib_framework"/>
 </buildpath>

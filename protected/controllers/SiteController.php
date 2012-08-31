@@ -16,7 +16,7 @@ class SiteController extends Controller
                 'users'=>array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions'=>array('addWord', 'logout'),
+                'actions'=>array('addRecord', 'logout'),
                 'users'=>array('@'),
             ),
             array('deny',  // deny all users
@@ -27,14 +27,31 @@ class SiteController extends Controller
     
     public function actionAddRecord()
     {
-        echo "test";
-        $hasErrors = false;
-        if(!$hasErrors)
-        {   
-            Yii::app()->user->setFlash('success', "Record successfuly added");
-        }    
-        else Yii::app()->user->setFlash('error', "Error adding your record");
-        $this->redirect(array("index", 'notation' => $notation));
+        $recordModel = new Record;
+        $notationModel = new Notation;
+        $recordModel->record = $_POST['Record']['record'];
+        $recordModel->author_id = Yii::app()->user->id;
+        if($recordModel->save())
+        {
+            $notationModel->note = $_POST['Notation']['note'];
+            $notationModel->user_id = Yii::app()->user->id;
+            $notationModel->record_id = $recordModel->id;
+            Yii::trace("recordModel id=".var_export($recordModel->id, true)."", "nico");
+            if($notationModel->save())
+            {
+                Yii::app()->user->setFlash('success', "Record successfuly added"); 
+                $this->redirect(Yii::app()->baseUrl.'/');
+            }
+        }
+        $errorMessage = "Error adding your record";
+        if(count($errors = $recordModel->getErrors()) && isset($errors['record'][0]))
+        {
+//            Yii::trace("errors=".var_export($errors, true)."", "nico");
+            $errorMessage.=": ".$errors['record'][0];
+        }
+//        Yii::trace("res=".var_export($recordModel->getErrors(), true)."", "nico");
+        Yii::app()->user->setFlash('error', $errorMessage);
+        $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
     }
     
 	/**
@@ -64,7 +81,7 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index', array('notation' => new Notation));
+		$this->render('index', array('notation' => new Notation, 'record' => new Record));
 	}
 
 	/**

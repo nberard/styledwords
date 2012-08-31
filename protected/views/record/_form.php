@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'user_id'); ?>
-		<?php echo $form->textField($model,'user_id'); ?>
-		<?php echo $form->error($model,'user_id'); ?>
+		<?php echo $form->labelEx($model,'author_id'); ?>
+		<?php echo $form->textField($model,'author_id'); ?>
+		<?php echo $form->error($model,'author_id'); ?>
 	</div>
 
 	<div class="row buttons">

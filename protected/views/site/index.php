@@ -19,20 +19,20 @@ the <a href="http://www.yiiframework.com/doc/">documentation</a>.
 Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
 should you have any questions.</p-->
 
-
+<?php if(!Yii::app()->user->isGuest) { ?>
 <div class="form">
-<?php $form=$this->beginWidget('CActiveForm', array(
-    'id'=>'form-add-record',
-    'action'=>'addRecord',
-    'enableClientValidation'=>true,
-    'clientOptions'=>array(
-        'validateOnSubmit'=>true,
-    ),
-)); ?>
+    <?php $form=$this->beginWidget('CActiveForm', array(
+        'id'=>'form-add-record',
+        'action'=>Yii::app()->baseUrl.'/site/addRecord',
+        'enableClientValidation'=>true,
+        'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+        ),
+    )); ?>
     <div class="row">
-        <?php echo CHtml::label('Your record <span class="required">*</span>', 'words', array('class' => 'required')) ?>
-        <?php echo Chtml::textField('words', '', array('size' => 100, 'maxlength' => 1024)) ?>
-        <div class="errorMessage" id="words_em">Your record format is not valid</div>
+         <?php echo $form->labelEx($record,'record'); ?>
+        <?php echo $form->textField($record,'record', array('size' => 100)); ?>
+        <?php echo $form->error($record,'record'); ?>        
     </div>
     <div class="row">
         <?php echo $form->labelEx($notation,'note'); ?>
@@ -43,9 +43,29 @@ should you have any questions.</p-->
     <div class="row buttons">
         <?php echo CHtml::submitButton('Add'); ?>
     </div>
-
-<?php $this->endWidget(); ?>
+    <?php $this->endWidget(); ?>
 </div>
+<?php
+    foreach(Yii::app()->user->getFlashes() as $key => $message) {
+        echo '<div class="flash-' . $key . '">' . $message . "</div>\n";
+    }
+?>
+<?php } ?>
+
+<ul class="notes-echelle">
+    <li>
+        <label for="note01" title="Note&nbsp;: 1 sur 3">1</label>
+        <input type="radio" name="notesA" id="note01" value="1" />
+    </li>
+    <li>
+        <label for="note02" title="Note&nbsp;: 2 sur 3">2</label>
+        <input type="radio" name="notesA" id="note02" value="2" />
+    </li>
+    <li>
+        <label for="note03" title="Note&nbsp;: 3 sur 3">3</label>
+        <input type="radio" name="notesA" id="note03" value="3" />
+    </li>
+</ul>
 
 
 
