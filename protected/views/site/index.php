@@ -36,7 +36,14 @@ should you have any questions.</p-->
     </div>
     <div class="row">
         <?php echo $form->labelEx($notation,'note'); ?>
-        <?php echo $form->textField($notation,'note', array('size' => 1, 'maxlength' => 2,)); ?>
+        <ul class="notes-echelle">
+            <?php for($i=1; $i<=$notation::maxNotation; $i++) { ?>
+            <li>
+                <label for="note0<?php echo $i;?>" title="Note&nbsp;: <?php echo $i;?> sur <?php echo $notation::maxNotation?>"><?php echo $i;?></label>
+                <input type="radio" name="Notation[note]" id="note0<?php echo $i;?>" value="<?php echo $i;?>" />
+            </li>
+        <?php } ?>
+        </ul>
         <?php echo $form->error($notation,'note'); ?>
     </div>
 
@@ -51,21 +58,3 @@ should you have any questions.</p-->
     }
 ?>
 <?php } ?>
-
-<ul class="notes-echelle">
-    <li>
-        <label for="note01" title="Note&nbsp;: 1 sur 3">1</label>
-        <input type="radio" name="notesA" id="note01" value="1" />
-    </li>
-    <li>
-        <label for="note02" title="Note&nbsp;: 2 sur 3">2</label>
-        <input type="radio" name="notesA" id="note02" value="2" />
-    </li>
-    <li>
-        <label for="note03" title="Note&nbsp;: 3 sur 3">3</label>
-        <input type="radio" name="notesA" id="note03" value="3" />
-    </li>
-</ul>
-
-
-

@@ -30,6 +30,7 @@ class SiteController extends Controller
         $recordModel = new Record;
         $notationModel = new Notation;
         $recordModel->record = $_POST['Record']['record'];
+//        Yii::trace("_POST=".var_export($_POST, true)."", "nico");
         $recordModel->author_id = Yii::app()->user->id;
         if($recordModel->save())
         {
