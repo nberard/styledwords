@@ -14,7 +14,7 @@
  * @property integer $author_id
  *
  * @property Notation[] $notations
- * @property User $user
+ * @property User $author
  */
 abstract class BaseRecord extends GxActiveRecord {
 
@@ -46,7 +46,7 @@ abstract class BaseRecord extends GxActiveRecord {
 	public function relations() {
 		return array(
 			'notations' => array(self::HAS_MANY, 'Notation', 'record_id'),
-			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
+			'author' => array(self::BELONGS_TO, 'User', 'author_id'),
 		);
 	}
 
@@ -59,9 +59,9 @@ abstract class BaseRecord extends GxActiveRecord {
 		return array(
 			'id' => Yii::t('app', 'ID'),
 			'record' => Yii::t('app', 'Record'),
-			'author_id' => Yii::t('app', 'Author'),
+			'author_id' => null,
 			'notations' => null,
-			'user' => null,
+			'author' => null,
 		);
 	}
 

@@ -1,0 +1,19 @@
+span.note-detailed {
+    font-size: 11px;
+    color: #999;
+    line-height: 14px;  
+}
+
+.stars-empty,.stars-filled  {
+	float: left;
+    display: block;
+    height: 20px;
+    line-height:20px;
+}
+.stars-empty {
+    background:url(../images/etoiles.gif) 0 -60px repeat-x;
+}
+
+.stars-filled {
+    background:url(../images/etoiles.gif) 0 0 repeat-x;
+}

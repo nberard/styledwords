@@ -1,9 +1,9 @@
 <?php
 /* @var $this SiteController */
-Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/index.js'); 
+Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/index.js');
+Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/list.css'); 
 $this->pageTitle=Yii::app()->name;
 ?>
-
 <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
 <!-- p>Congratulations! You have successfully created your Yii application.</p>
@@ -44,9 +44,9 @@ should you have any questions.</p-->
             </li>
         <?php } ?>
         </ul>
+        <div class="clear"></div>
         <?php echo $form->error($notation,'note'); ?>
     </div>
-
     <div class="row buttons">
         <?php echo CHtml::submitButton('Add'); ?>
     </div>
@@ -58,3 +58,20 @@ should you have any questions.</p-->
     }
 ?>
 <?php } ?>
+
+<?php 
+    $this->widget('zii.widgets.grid.CGridView', array(
+    'dataProvider'=> $record->search(),
+    'columns'=>array(
+        'record',          
+        array(           
+            'name'=>'authorName',
+            'value'=>'$data->author->username',
+        ),
+        array(           
+            'name'=>'noteAvg',
+            'value'=> array($this, 'getStartsNotation'),
+        ),
+    ),
+)); ?>
+

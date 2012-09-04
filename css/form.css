@@ -185,7 +185,7 @@ ul.notes-echelle li label {
     cursor:pointer;
 }
 
-ul.notes-echelle li.note-off label {
+ul.notes-echelle li.note-off label{
     background-position:center -60px;
 }
 
@@ -193,3 +193,4 @@ ul.notes-echelle.js input {
     position:absolute;
     left:-999%;
 }
+

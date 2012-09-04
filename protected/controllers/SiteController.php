@@ -30,6 +30,7 @@ class SiteController extends Controller
         $recordModel = new Record;
         $notationModel = new Notation;
         $recordModel->record = $_POST['Record']['record'];
+        $notationModel->note = isset($_POST['Notation']['note']) ? $_POST['Notation']['note'] : '';
 //        Yii::trace("_POST=".var_export($_POST, true)."", "nico");
         $recordModel->author_id = Yii::app()->user->id;
         if($recordModel->save())
@@ -44,15 +45,47 @@ class SiteController extends Controller
                 $this->redirect(Yii::app()->baseUrl.'/');
             }
         }
-        $errorMessage = "Error adding your record";
-        if(count($errors = $recordModel->getErrors()) && isset($errors['record'][0]))
+        else 
         {
-//            Yii::trace("errors=".var_export($errors, true)."", "nico");
-            $errorMessage.=": ".$errors['record'][0];
+            $recordInDB = $recordModel->findByAttributes(array('record' => $_POST['Record']['record']));
+            if($recordInDB != null)
+            {
+                $notationModel->user_id = Yii::app()->user->id;
+                $notationModel->record_id = $recordInDB->id;
+                Yii::trace("recordModel id=".var_export($recordInDB->id, true)."", "nico");
+                if($notationModel->save())
+                {
+                    Yii::app()->user->setFlash('success', "This record was already existing, your note has been added"); 
+                    $this->redirect(Yii::app()->baseUrl.'/');
+                }
+            }            
+        }
+        $errorMessage = "Error adding your record";
+        if(count($errors = array_merge($recordModel->getErrors(), $notationModel->getErrors())) > 0)
+        {
+            $errorMessage.=": <br/>";
+            foreach($errors as $model => $errorsModel)
+            {
+                foreach ($errorsModel as $errorModel)
+                {
+                    $errorMessage.=$errorModel." ; ";                
+                }
+            }   
+            $errorMessage = substr($errorMessage, 0, -3);
         }
 //        Yii::trace("res=".var_export($recordModel->getErrors(), true)."", "nico");
         Yii::app()->user->setFlash('error', $errorMessage);
         $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
+    }
+    
+    public function getStartsNotation($data, $row)
+    {   
+        return $this->renderPartial('/site/_notation_stars',
+                                    array(
+                                        'widthEmpty' => Notation::maxNotation * 20,
+                                        'widthFilled' => $data->noteAvg / Notation::maxNotation * 100,
+                                        'note' => round($data->noteAvg, 2),
+                                    ));                                    
     }
     
 	/**
@@ -80,9 +113,8 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index', array('notation' => new Notation, 'record' => new Record));
+        $record = new Record;
+		$this->render('index', array('notation' => new Notation, 'record' => $record));
 	}
 
 	/**

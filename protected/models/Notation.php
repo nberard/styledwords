@@ -15,6 +15,7 @@ class Notation extends BaseNotation
 	{
 	    return array_merge(parent::rules(), array(
 	       array('note', 'numerical', 'integerOnly'=>true, 'min' => 0, 'max' => self::maxNotation),
+	       array('user_id', 'ext.validators.userHasAlreadyNoted'),
 	    ));
 	}
 }
