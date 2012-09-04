@@ -4,7 +4,7 @@ Yii::import('application.models._base.BaseRecord');
 
 class Record extends BaseRecord
 {
-    const pageSize = 2;
+    const pageSize = 10;
 	public static function model($className=__CLASS__) {
 		return parent::model($className);
 	}
