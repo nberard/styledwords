@@ -35,8 +35,8 @@ class Record extends BaseRecord
 	    $sort = new CSort();
         $sort->attributes = array(
             'authorName'=>array(
-              'asc'=>'author.username asc',
-              'desc'=>'author.username desc',
+              'asc'=>'user.username asc',
+              'desc'=>'user.username desc',
             ),
             'noteAvg'=>array(
               'asc'=>'noteAvg ASC',

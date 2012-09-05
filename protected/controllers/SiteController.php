@@ -113,8 +113,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-        $record = new Record;
-		$this->render('index', array('notation' => new Notation, 'record' => $record));
+		$this->render('index', array('notation' => new Notation, 'record' => new Record));
 	}
 
 	/**
