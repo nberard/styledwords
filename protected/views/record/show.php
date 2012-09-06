@@ -7,4 +7,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<p>The record <span class="record-name"><?php echo $model->record; ?></span> was created by <?php echo CHtml::link($model->author->username, array('user/user/view/id/'.$model->author_id)); ?></p>
+<p>The record <span class="record-name"><?php echo $model->record; ?></span>
+ was created by <?php echo CHtml::link($model->author->username, array('user/user/view/id/'.$model->author_id)); ?>
+<?php echo date("d/m/Y H:i:s", strtotime($model->created_at)); ?>
+</p>

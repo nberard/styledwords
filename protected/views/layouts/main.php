@@ -30,13 +30,14 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/'), 'active' => $this->route === 'site/index' ),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Register', 'url'=>array('/user/registration'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/registration/registration'),
-				array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/login/login'),
-				array('label'=>'My Profile', 'url'=>array('/user/profile'), 'visible'=>!Yii::app()->user->isGuest, 'active' => $this->route === 'user/profile/profile'),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>Yii::t('main', 'Home'), 'url'=>array('/'), 'active' => $this->route === 'site/index' ),
+				array('label'=>Yii::t('main', 'About'), 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>Yii::t('main', 'Contact'), 'url'=>array('/site/contact')),
+				array('label'=>Yii::t('main', 'Register'), 'url'=>array('/user/registration'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/registration/registration'),
+				array('label'=>Yii::t('main', 'Login'), 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/login/login'),
+				array('label'=>Yii::t('main', 'My Profile'), 'url'=>array('/user/profile'), 'visible'=>!Yii::app()->user->isGuest, 'active' => $this->route === 'user/profile/profile'),
+				array('label'=>Yii::t('main', 'Logout ({username})', array('{username}' => Yii::app()->user->username)), 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+//				array('label'=>Yii::t('main', 'test ({username})', array('{username}' => Yii::app()->user->username)), 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 			),
 		)); ?>
 	</div><!-- mainmenu -->

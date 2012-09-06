@@ -4,7 +4,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/index.js')
 Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/list.css'); 
 $this->pageTitle=Yii::app()->name;
 ?>
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1><?php echo Yii::t('main', 'Welcome to'); ?> <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
 <!-- p>Congratulations! You have successfully created your Yii application.</p>
 
@@ -73,7 +73,7 @@ should you have any questions.</p-->
         array(           
             'name'=>'record',
             'type' => 'html',
-            'value'=>'CHtml::link($data->record, array("/record/show/".$data->id))',
+            'value'=>'CHtml::link($data->record, array("/record/show/id/".$data->id))',
         ),         
         array(           
             'name'=>'authorName',
