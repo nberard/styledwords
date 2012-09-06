@@ -23,9 +23,6 @@ class Controller extends CController
 	
     public function __construct($id,$module=null)
     {
-        Yii::trace("__construct id=".var_export($id, true)."", "nico");
-        Yii::trace("__construct module=".var_export($module, true)."", "nico");
-        Yii::trace("__construct=".var_export(Yii::app()->request->url, true)."", "nico");
         parent::__construct($id,$module);
         // If there is a post-request, redirect the application to the provided url of the selected language 
         if(isset($_POST['language'])) 

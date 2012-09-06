@@ -31,10 +31,5 @@
 			<type>2</type>
 			<location>D:/yii-1.1.12.b600af/framework</location>
 		</link>
-		<link>
-			<name>lib_framework</name>
-			<type>2</type>
-			<location>D:/yii-1.1.12.b600af/framework</location>
-		</link>
 	</linkedResources>
 </projectDescription>

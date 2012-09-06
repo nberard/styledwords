@@ -47,6 +47,7 @@ should you have any questions.</p-->
         <div class="clear"></div>
         <?php echo $form->error($notation,'note'); ?>
     </div>
+    <div>TODO select language (preselected is $_GET['language'])</div>
     <div class="row buttons">
         <?php echo CHtml::submitButton('Add'); ?>
     </div>
