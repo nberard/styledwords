@@ -13,6 +13,7 @@
  * @property integer $record_id
  * @property integer $user_id
  * @property integer $note
+ * @property string $attributed_at
  *
  * @property Record $record
  * @property User $user
@@ -32,14 +33,14 @@ abstract class BaseNotation extends GxActiveRecord {
 	}
 
 	public static function representingColumn() {
-		return 'id';
+		return 'attributed_at';
 	}
 
 	public function rules() {
 		return array(
-			array('record_id, user_id, note', 'required'),
+			array('record_id, user_id, note, attributed_at', 'required'),
 			array('record_id, user_id, note', 'numerical', 'integerOnly'=>true),
-			array('id, record_id, user_id, note', 'safe', 'on'=>'search'),
+			array('id, record_id, user_id, note, attributed_at', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,6 +62,7 @@ abstract class BaseNotation extends GxActiveRecord {
 			'record_id' => null,
 			'user_id' => null,
 			'note' => Yii::t('app', 'Note'),
+			'attributed_at' => Yii::t('app', 'Attributed At'),
 			'record' => null,
 			'user' => null,
 		);
@@ -73,6 +75,7 @@ abstract class BaseNotation extends GxActiveRecord {
 		$criteria->compare('record_id', $this->record_id);
 		$criteria->compare('user_id', $this->user_id);
 		$criteria->compare('note', $this->note);
+		$criteria->compare('attributed_at', $this->attributed_at, true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

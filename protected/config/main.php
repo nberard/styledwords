@@ -9,6 +9,9 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Styled Words',
 
+    'sourceLanguage'=>'en',
+    'language'=>'en',
+
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -72,12 +75,21 @@ return array(
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
+            'class'=>'application.components.UrlManager',
 			'urlFormat'=>'path',
 		    'showScriptName'=>false,
 			'rules'=>array(
+                '<language:(en|fr)>'=>'/',
+				'<language:(en|fr)>/<controller:\w+>/<id:\d+>'=>'<controller>/view',
+				'<language:(en|fr)>/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				'<language:(en|fr)>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>/<id>',
+                '<language:(en|fr)>/<module:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<module>/<controller>/<action>/<id>',
+                '<language:(en|fr)>/<module:\w+>/<controller:\w+>/<action:\w+>/<idtag:\w+>/<id:\d+>'=>'<module>/<controller>/<action>/<idtag>/<id>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>/<id>',
+				'<module:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<module>/<controller>/<action>/<id>',
+				'<module:\w+>/<controller:\w+>/<action:\w+>/<idtag:\w+>/<id:\d+>'=>'<module>/<controller>/<action>/<idtag>/<id>',
 			),
 		),
 		
@@ -115,9 +127,12 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	'params'=>array(
-		// this is used in contact page
-		'adminEmail'=>'berard.nicolas@gmail.com',
-		'salt' => 'Zh8PCtCchuySJJpx',
-	),
+    'params'=>array(
+        // this is used in contact page
+        'adminEmail'=>'berard.nicolas@gmail.com',
+        'languages' => array(
+            'fr' => 'Français',
+            'en' => 'English',
+        ),
+    ),
 );

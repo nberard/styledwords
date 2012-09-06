@@ -33,6 +33,12 @@
 		<?php echo $form->error($model,'note'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'attributed_at'); ?>
+		<?php echo $form->textField($model,'attributed_at'); ?>
+		<?php echo $form->error($model,'attributed_at'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

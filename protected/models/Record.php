@@ -5,6 +5,9 @@ Yii::import('application.models._base.BaseRecord');
 class Record extends BaseRecord
 {
     const pageSize = 10;
+    const LNG_FR = 'FR';
+    const LNG_EN = 'EN';
+    
 	public static function model($className=__CLASS__) {
 		return parent::model($className);
 	}
@@ -13,8 +16,8 @@ class Record extends BaseRecord
 	{
 	    $parentRules = parent::rules();
 	    foreach ($parentRules as &$parentRule)
-	       if($parentRule[1] == 'required')
-	           $parentRule[0] = str_replace('created_at', '', $parentRule[0]);
+	       if($parentRule[1] == 'required') 
+	           $parentRule[0] = str_replace(array('created_at, ', 'created_at'), '', $parentRule[0]);
 	    return array_merge($parentRules, array(
            array('record', 'ext.validators.recordRegex'),
            array('record', 'ext.validators.recordExists'),

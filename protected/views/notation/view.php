@@ -25,5 +25,6 @@ $this->menu=array(
 		'record_id',
 		'user_id',
 		'note',
+		'attributed_at',
 	),
 )); ?>

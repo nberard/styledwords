@@ -13,7 +13,11 @@ class Notation extends BaseNotation
 	
 	public function rules()
 	{
-	    return array_merge(parent::rules(), array(
+	    $parentRules = parent::rules();
+        foreach ($parentRules as &$parentRule)
+           if($parentRule[1] == 'required') 
+               $parentRule[0] = str_replace(array('attributed_at, ', 'attributed_at'), '', $parentRule[0]);
+	    return array_merge($parentRules, array(
 	       array('note', 'numerical', 'integerOnly'=>true, 'min' => 0, 'max' => self::maxNotation),
 	       array('user_id', 'ext.validators.userHasAlreadyNoted'),
 	    ));

@@ -58,7 +58,13 @@ should you have any questions.</p-->
     }
 ?>
 <?php } ?>
-
+<hr>
+<h1>TODO</h1>
+<fieldset>
+<div><input type="text" name="f" value="" id="thesearchbox" autocomplete="off"><ul class="autocomplete"></ul></div> 
+<div><input type="submit" value="Search" id="thesearchbutton"></div>
+</fieldset>
+<hr>
 <?php 
     $this->widget('zii.widgets.grid.CGridView', array(
     'dataProvider'=> $record->search(),
@@ -66,12 +72,12 @@ should you have any questions.</p-->
         array(           
             'name'=>'record',
             'type' => 'html',
-            'value'=>'CHtml::link($data->record, array("record/show/".$data->id))',
+            'value'=>'CHtml::link($data->record, array("/record/show/".$data->id))',
         ),         
         array(           
             'name'=>'authorName',
             'type' => 'html',
-            'value'=>'CHtml::link($data->author->username, array("user/user/view/id/".$data->author->id))',
+            'value'=>'CHtml::link($data->author->username, array("/user/user/view/id/".$data->author->id))',
         ),
         array(           
             'name'=>'noteAvg',

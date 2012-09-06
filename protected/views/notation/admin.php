@@ -49,6 +49,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'record_id',
 		'user_id',
 		'note',
+		'attributed_at',
 		array(
 			'class'=>'CButtonColumn',
 		),

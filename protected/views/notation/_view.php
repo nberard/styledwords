@@ -21,5 +21,9 @@
 	<?php echo CHtml::encode($data->note); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('attributed_at')); ?>:</b>
+	<?php echo CHtml::encode($data->attributed_at); ?>
+	<br />
+
 
 </div>
