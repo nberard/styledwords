@@ -12,6 +12,7 @@
  * @property integer $id
  * @property string $record
  * @property integer $author_id
+ * @property string $created_at
  *
  * @property Notation[] $notations
  * @property User $author
@@ -36,10 +37,10 @@ abstract class BaseRecord extends GxActiveRecord {
 
 	public function rules() {
 		return array(
-			array('record, author_id', 'required'),
+			array('record, author_id, created_at', 'required'),
 			array('author_id', 'numerical', 'integerOnly'=>true),
 			array('record', 'length', 'max'=>1024),
-			array('id, record, author_id', 'safe', 'on'=>'search'),
+			array('id, record, author_id, created_at', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,6 +61,7 @@ abstract class BaseRecord extends GxActiveRecord {
 			'id' => Yii::t('app', 'ID'),
 			'record' => Yii::t('app', 'Record'),
 			'author_id' => null,
+			'created_at' => Yii::t('app', 'Created At'),
 			'notations' => null,
 			'author' => null,
 		);
@@ -71,6 +73,7 @@ abstract class BaseRecord extends GxActiveRecord {
 		$criteria->compare('id', $this->id);
 		$criteria->compare('record', $this->record, true);
 		$criteria->compare('author_id', $this->author_id);
+		$criteria->compare('created_at', $this->created_at, true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

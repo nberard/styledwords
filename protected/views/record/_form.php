@@ -27,6 +27,12 @@
 		<?php echo $form->error($model,'author_id'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'created_at'); ?>
+		<?php echo $form->textField($model,'created_at'); ?>
+		<?php echo $form->error($model,'created_at'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

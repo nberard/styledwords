@@ -18,4 +18,11 @@ class Notation extends BaseNotation
 	       array('user_id', 'ext.validators.userHasAlreadyNoted'),
 	    ));
 	}
+	
+    public function attributeLabels() 
+    {
+        $attributeLabels = parent::attributeLabels();
+        $attributeLabels['user_id'] = Yii::t('app', 'User ID');
+        return $attributeLabels;
+    }
 }

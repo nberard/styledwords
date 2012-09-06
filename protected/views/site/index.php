@@ -63,14 +63,25 @@ should you have any questions.</p-->
     $this->widget('zii.widgets.grid.CGridView', array(
     'dataProvider'=> $record->search(),
     'columns'=>array(
-        'record',          
+        array(           
+            'name'=>'record',
+            'type' => 'html',
+            'value'=>'CHtml::link($data->record, array("record/show/".$data->id))',
+        ),         
         array(           
             'name'=>'authorName',
-            'value'=>'$data->author->username',
+            'type' => 'html',
+            'value'=>'CHtml::link($data->author->username, array("user/user/view/id/".$data->author->id))',
         ),
         array(           
             'name'=>'noteAvg',
+            'header' => 'Notes Average',
             'value'=> array($this, 'getStartsNotation'),
+        ),
+        array(           
+            'name'=>'noteNb',
+            'header' => 'Number of notes',
+            'value'=> '$data->noteNb',
         ),
     ),
 )); ?>

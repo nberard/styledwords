@@ -4,10 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
-	<!--[if lt IE 8]>
-	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/ie.css', 'screen, projection'); ?>
-	<![endif]-->
-    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 	<!-- blueprint CSS framework -->
 	<?php
 	    Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/screen.css', 'screen, projection');
@@ -17,6 +14,9 @@
         Yii::app()->clientScript->registerCoreScript('jquery');     
         Yii::app()->clientScript->registerCoreScript('jquery.ui'); 
 	?>
+	<!--[if lt IE 8]>
+    <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/ie.css', 'screen, projection'); ?>
+    <![endif]-->
 </head>
 
 <body>
@@ -35,6 +35,7 @@
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Register', 'url'=>array('/user/registration'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/registration/registration'),
 				array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/login/login'),
+				array('label'=>'My Profile', 'url'=>array('/user/profile'), 'visible'=>!Yii::app()->user->isGuest, 'active' => $this->route === 'user/profile/profile'),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>

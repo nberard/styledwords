@@ -24,5 +24,6 @@ $this->menu=array(
 		'id',
 		'record',
 		'author_id',
+		'created_at',
 	),
 )); ?>

@@ -3894,3 +3894,860 @@ Stack trace:
 REQUEST_URI=/styledWords/site/index?sort=authorName&ajax=yw0
 HTTP_REFERER=http://localhost/styledWords/
 ---
+2012/09/05 14:17:42 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:17 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:21 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:22 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:29 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:32 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:42 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:44:54 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:45:08 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:28 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:37 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:39 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:42 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:51 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:46:56 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 14:47:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/styledWords/user/admin
+---
+2012/09/05 14:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/viexw".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user/viexw')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/user/viexw
+---
+2012/09/05 14:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/view".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user/view')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/user/view
+---
+2012/09/05 14:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/index".' in D:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user/index')
+#1 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/styledWords/user/index
+---
+2012/09/05 15:44:41 [error] [exception.CException] exception 'CException' with message 'Property "Record.noteAvg" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('noteAvg')
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(86): CActiveRecord->__get('noteAvg')
+#2 [internal function]: SiteController->getStartsNotation(Object(Record), 0, Object(CDataColumn))
+#3 D:\yii-1.1.12.b600af\framework\base\CComponent.php(612): call_user_func_array(Array, Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression(Array, Array)
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#16 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#20 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#26 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:45:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (76)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (116)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 15:45:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:45:56 [error] [exception.CException] exception 'CException' with message 'Property "Record.noteAvg" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('noteAvg')
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(86): CActiveRecord->__get('noteAvg')
+#2 [internal function]: SiteController->getStartsNotation(Object(Record), 0, Object(CDataColumn))
+#3 D:\yii-1.1.12.b600af\framework\base\CComponent.php(612): call_user_func_array(Array, Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression(Array, Array)
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#16 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#20 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#26 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:46:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`record` AS `t0_c1`, `t`.`author_id` AS `t0_c2`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (76)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (116)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 15:46:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`record` AS `t0_c1`, `t`.`author_id` AS `t0_c2`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:48:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (76)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (116)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 15:48:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteAvg' inconnu dans order clause. The SQL statement executed was: SELECT `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(76): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:55:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'note.id' inconnu dans field list. The SQL statement executed was: SELECT AVG(note) as noteAvg, COUNT(note.id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (80)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (116)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 15:55:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'note.id' inconnu dans field list. The SQL statement executed was: SELECT AVG(note) as noteAvg, COUNT(note.id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(80): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 15:55:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu. The SQL statement executed was: SELECT AVG(note) as noteAvg, COUNT(id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (80)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (116)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 15:55:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu. The SQL statement executed was: SELECT AVG(note) as noteAvg, COUNT(id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(80): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 16:43:05 [error] [exception.CException] exception 'CException' with message 'Property "Record.noteAvg" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('noteAvg')
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(86): CActiveRecord->__get('noteAvg')
+#2 [internal function]: SiteController->getStartsNotation(Object(Record), 0, Object(CDataColumn))
+#3 D:\yii-1.1.12.b600af\framework\base\CComponent.php(612): call_user_func_array(Array, Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression(Array, Array)
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(86): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#16 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#20 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#26 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 16:47:46 [error] [exception.CException] exception 'CException' with message 'Property "Record.power" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('power')
+#1 D:\yii-1.1.12.b600af\framework\base\CComponent.php(607) : eval()'d code(1): CActiveRecord->__get('power')
+#2 D:\yii-1.1.12.b600af\framework\base\CComponent.php(607): eval()
+#3 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression('$data->power', Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#12 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#13 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(86): CBaseController->widget('zii.widgets.gri...', Array)
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#18 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): CController->render('index', Array)
+#19 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#25 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 16:48:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'power' inconnu dans order clause. The SQL statement executed was: SELECT AVG(note) as noteAvg, SUM(note) as noteSum, COUNT(notations.id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY power ASC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (86)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (117)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 16:48:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'power' inconnu dans order clause. The SQL statement executed was: SELECT AVG(note) as noteAvg, SUM(note) as noteSum, COUNT(notations.id) as noteNb, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY power ASC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(86): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/site/index?sort=power&ajax=yw0
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 16:48:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteSum' inconnu dans field list. The SQL statement executed was: SELECT AVG(note) as noteAvg, SUM(note) as noteSum, COUNT(notations.id) as noteNb, ((noteSum * noteSum) / noteNb) AS power, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10.
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (86)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (117)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 16:48:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Champ 'noteSum' inconnu dans field list. The SQL statement executed was: SELECT AVG(note) as noteAvg, SUM(note) as noteSum, COUNT(notations.id) as noteNb, ((noteSum * noteSum) / noteNb) AS power, `t`.`record` AS `t0_c1`, `t`.`id` AS `t0_c0`, `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`email` AS `t1_c3`, `user`.`create_at` AS `t1_c5`, `user`.`lastvisit_at` AS `t1_c6`, `user`.`superuser` AS `t1_c7`, `user`.`status` AS `t1_c8`, `profile`.`user_id` AS `t2_c0`, `profile`.`lastname` AS `t2_c1`, `profile`.`firstname` AS `t2_c2`, `notations`.`id` AS `t3_c0`, `notations`.`record_id` AS `t3_c1`, `notations`.`user_id` AS `t3_c2`, `notations`.`note` AS `t3_c3` FROM `record` `t`  LEFT OUTER JOIN `user` `user` ON (`t`.`author_id`=`user`.`id`)  LEFT OUTER JOIN `profile` `profile` ON (`profile`.`user_id`=`user`.`id`)  LEFT OUTER JOIN `notation` `notations` ON (`notations`.`record_id`=`t`.`id`)  GROUP BY record_id ORDER BY noteAvg DESC LIMIT 10' in D:\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(784): CDbCommand->queryAll()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\yii-1.1.12.b600af\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1296): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CGridView->init()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#12 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(86): CBaseController->widget('zii.widgets.gri...', Array)
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#15 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): CController->render('index', Array)
+#18 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#23 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 16:54:39 [error] [php] Undefined variable: data (C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php:69)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): SiteController->render()
+#3 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (69)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (117)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 16:56:19 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "label".' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(226): CComponent->__call('label', Array)
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): CActiveRecord->__call('label', Array)
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): User->label(1)
+#3 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(165): GxActiveRecord->getRelationLabel('author_id')
+#4 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\record\_view.php(16): GxActiveRecord->getAttributeLabel('author_id')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(131): require('C:\Program File...')
+#6 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, false)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(260): CBaseController->renderFile('C:\Program File...', Array)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CListView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#12 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#13 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\record\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#18 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\RecordController.php(128): CController->render('index', Array)
+#19 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): RecordController->actionIndex()
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#22 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#24 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#27 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#29 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record')
+#30 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#31 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/styledWords/record
+---
+2012/09/05 17:04:33 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "label".' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(226): CComponent->__call('label', Array)
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): CActiveRecord->__call('label', Array)
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): User->label(1)
+#3 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(165): GxActiveRecord->getRelationLabel('author_id')
+#4 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\record\_view.php(16): GxActiveRecord->getAttributeLabel('author_id')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(131): require('C:\Program File...')
+#6 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, false)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(260): CBaseController->renderFile('C:\Program File...', Array)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CListView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#12 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#13 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\record\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#18 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\RecordController.php(128): CController->render('index', Array)
+#19 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): RecordController->actionIndex()
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#22 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#24 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#27 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#29 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record')
+#30 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#31 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/styledWords/record
+---
+2012/09/05 17:05:24 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "label".' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(226): CComponent->__call('label', Array)
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): CActiveRecord->__call('label', Array)
+#2 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(119): User->label(1)
+#3 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\extensions\giix-components\GxActiveRecord.php(165): GxActiveRecord->getRelationLabel('user_id')
+#4 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\notation\_view.php(16): GxActiveRecord->getAttributeLabel('user_id')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(131): require('C:\Program File...')
+#6 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, false)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(260): CBaseController->renderFile('C:\Program File...', Array)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CListView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#12 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#13 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\notation\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#14 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#18 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\NotationController.php(128): CController->render('index', Array)
+#19 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): NotationController->actionIndex()
+#20 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#22 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#24 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#25 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#26 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#27 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#29 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('notation')
+#30 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#31 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/styledWords/notation
+---
+2012/09/05 17:08:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('notation')
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/styledWords/notation
+HTTP_REFERER=http://localhost/styledWords/user/login
+---
+2012/09/05 17:17:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\yii-1.1.12.b600af\framework\web\CController.php:337
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('show')
+#9 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record/show')
+#10 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/styledWords/record/show
+---
+2012/09/05 17:22:03 [error] [php] Trying to get property of non-object (D:\yii-1.1.12.b600af\framework\base\CComponent.php(607) : eval()'d code:1)
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent()
+#1 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CDataColumn->renderDataCell()
+#2 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow()
+#3 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback()
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CGridView->renderContent()
+#8 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CGridView->run()
+#9 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(91): SiteController->widget()
+#10 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#11 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#12 D:\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#13 D:\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): SiteController->render()
+#15 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#16 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#19 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#20 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#21 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CWebApplication->run()
+REQUEST_URI=/styledWords/
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php (91)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php (117)
+in C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php (13)
+2012/09/05 17:23:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record/update')
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/styledWords/record/update/5
+---
+2012/09/05 17:25:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record/index')
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/styledWords/record/index
+HTTP_REFERER=http://localhost/styledWords/record/show/5
+---
+2012/09/05 17:25:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\yii-1.1.12.b600af\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('index')
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('record/index')
+#9 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/styledWords/record/index
+HTTP_REFERER=http://localhost/styledWords/record/show/5
+---
+2012/09/05 17:43:48 [error] [exception.CException] exception 'CException' with message 'Property "Record.noteSum" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('noteSum')
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(83): CActiveRecord->__get('noteSum')
+#2 [internal function]: SiteController->getStartsNotation(Object(Record), 0, Object(CDataColumn))
+#3 D:\yii-1.1.12.b600af\framework\base\CComponent.php(612): call_user_func_array(Array, Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression(Array, Array)
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(91): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#16 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): CController->render('index', Array)
+#20 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#26 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/record/show/5
+---
+2012/09/05 17:57:34 [error] [exception.CException] exception 'CException' with message 'Property "Record.create_at" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('create_at')
+#1 D:\yii-1.1.12.b600af\framework\validators\CDefaultValueValidator.php(45): CActiveRecord->__get('create_at')
+#2 D:\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CDefaultValueValidator->validateAttribute(Object(Record), 'create_at')
+#3 D:\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(Record), NULL)
+#4 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(36): CActiveRecord->save()
+#6 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#11 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#12 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/05 18:02:48 [error] [exception.CException] exception 'CException' with message 'Record has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\yii-1.1.12.b600af\framework\base\CModel.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\base\CModel.php(259): CModel->createValidators()
+#1 D:\yii-1.1.12.b600af\framework\base\CModel.php(302): CModel->getValidators('record')
+#2 D:\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1197): CModel->isAttributeRequired('record')
+#3 D:\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(563): CHtml::activeLabelEx(Object(Record), 'record', Array)
+#4 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(33): CActiveForm->labelEx(Object(Record), 'record')
+#5 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#6 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#8 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#9 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(117): CController->render('index', Array)
+#10 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#15 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#16 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/styledWords/
+HTTP_REFERER=http://localhost/styledWords/site/addRecord
+---
+2012/09/05 18:03:28 [error] [exception.CException] exception 'CException' with message 'Record has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\yii-1.1.12.b600af\framework\base\CModel.php:287
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\base\CModel.php(259): CModel->createValidators()
+#1 D:\yii-1.1.12.b600af\framework\base\CModel.php(157): CModel->getValidators()
+#2 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#3 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(36): CActiveRecord->save()
+#4 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionAddRecord()
+#5 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('addRecord')
+#9 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/addRecord')
+#10 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/styledWords/site/addRecord
+HTTP_REFERER=http://localhost/styledWords/
+---
+2012/09/06 10:25:26 [error] [exception.CException] exception 'CException' with message 'Property "Record.avg" is not defined.' in D:\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('avg')
+#1 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(86): CActiveRecord->__get('avg')
+#2 [internal function]: SiteController->getStartsNotation(Object(Record), 0, Object(CDataColumn))
+#3 D:\yii-1.1.12.b600af\framework\base\CComponent.php(612): call_user_func_array(Array, Array)
+#4 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CDataColumn.php(132): CComponent->evaluateExpression(Array, Array)
+#5 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Record))
+#6 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#7 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#8 D:\yii-1.1.12.b600af\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#9 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 D:\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\views\site\index.php(87): CBaseController->widget('zii.widgets.gri...', Array)
+#15 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Program File...')
+#16 D:\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Program File...', Array, true)
+#17 D:\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Program File...', Array, true)
+#18 D:\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\protected\controllers\SiteController.php(116): CController->render('index', Array)
+#20 D:\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#21 D:\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 D:\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#23 D:\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 D:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#26 D:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Program Files (x86)\EasyPHP-12.1\www\styledWords\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/styledWords/
+---

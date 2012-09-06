@@ -11,7 +11,11 @@ class Record extends BaseRecord
 	
 	public function rules()
 	{
-	    return array_merge(parent::rules(), array(
+	    $parentRules = parent::rules();
+	    foreach ($parentRules as &$parentRule)
+	       if($parentRule[1] == 'required')
+	           $parentRule[0] = str_replace('created_at', '', $parentRule[0]);
+	    return array_merge($parentRules, array(
            array('record', 'ext.validators.recordRegex'),
            array('record', 'ext.validators.recordExists'),
         ));
@@ -20,6 +24,7 @@ class Record extends BaseRecord
 	public function relations()
 	{
 	    return array_merge(parent::relations(), array(
+	       'noteNb' => array(self::STAT, 'Notation', 'record_id', 'select' => 'COUNT(id)', 'group' => 'record_id'),
 	       'noteAvg' => array(self::STAT, 'Notation', 'record_id', 'select' => 'AVG(note)', 'group' => 'record_id'),
 	    ));
 	}
@@ -30,6 +35,13 @@ class Record extends BaseRecord
 	    return true; 
 	}
 	
+    public function attributeLabels() 
+    {
+        $attributeLabels = parent::attributeLabels();
+        $attributeLabels['author_id'] = Yii::t('app', 'Author ID');
+        return $attributeLabels;
+    }
+	
 	public function search()
 	{
 	    $sort = new CSort();
@@ -37,6 +49,10 @@ class Record extends BaseRecord
             'authorName'=>array(
               'asc'=>'user.username asc',
               'desc'=>'user.username desc',
+            ),
+            'noteNb'=>array(
+              'asc'=>'noteNb asc',
+              'desc'=>'noteNb desc',
             ),
             'noteAvg'=>array(
               'asc'=>'noteAvg ASC',
@@ -47,7 +63,9 @@ class Record extends BaseRecord
         $sort->defaultOrder = 'noteAvg DESC';
         $criteria = new CDbCriteria;
         $criteria->together = true;
-        $criteria->select = 'AVG(note) as noteAvg, record.record';
+        $criteria->select = 'AVG(note) as noteAvg,
+                             COUNT(notations.id) as noteNb,
+                             record.record';
         $criteria->group = 'record_id';
         $criteria->with = array('author', 'notations');
         return new CActiveDataProvider('Record', array(
