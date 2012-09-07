@@ -3,9 +3,6 @@ class UrlManager extends CUrlManager
 {
     public function createUrl($route,$params=array(),$ampersand='&')
     {
-        Yii::trace("UrlManager createUrl=".var_export($route, true)."", "nico");
-        Yii::trace("params=".var_export($params, true)."", "nico");
-        Yii::trace("GET=".var_export($_GET, true)."", "nico");
         if (!isset($params['language'])) 
         {
             if (Yii::app()->user->hasState('language'))

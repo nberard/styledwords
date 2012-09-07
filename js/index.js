@@ -1,21 +1,21 @@
 $(document).ready(function(){
 	$("ul.notes-echelle").addClass("js");
-	// On passe chaque note à l'état grisé par défaut
+	// On passe chaque note Ã  l'Ã©tat grisÃ© par dÃ©faut
 	$("ul.notes-echelle li").addClass("note-off");
-	// Au survol de chaque note à la souris
+	// Au survol de chaque note Ã  la souris
 	$("ul.notes-echelle li").mouseover(function() {
-		// On passe les notes supérieures à l'état inactif (par défaut)
+		// On passe les notes supÃ©rieures Ã  l'Ã©tat inactif (par dÃ©faut)
 		$(this).nextAll("li").addClass("note-off");
-		// On passe les notes inférieures à l'état actif
+		// On passe les notes infÃ©rieures Ã  l'Ã©tat actif
 		$(this).prevAll("li").removeClass("note-off");
-		// On passe la note survolée à l'état actif (par défaut)
+		// On passe la note survolÃ©e Ã  l'Ã©tat actif (par dÃ©faut)
 		$(this).removeClass("note-off");
 	});
-	// Lorsque l'on sort du sytème de notation à la souris
+	// Lorsque l'on sort du sytÃ¨me de notation Ã  la souris
 	$("ul.notes-echelle").mouseout(function() {
-		// On passe toutes les notes à l'état inactif
+		// On passe toutes les notes Ã  l'Ã©tat inactif
 		$(this).children("li").addClass("note-off");
-		// On simule (trigger) un mouseover sur la note cochée s'il y a lieu
+		// On simule (trigger) un mouseover sur la note cochÃ©e s'il y a lieu
 		$(this).find("li input:checked").parent("li").trigger("mouseover");
 	});
 });

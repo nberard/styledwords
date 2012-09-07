@@ -47,9 +47,22 @@ should you have any questions.</p-->
         <div class="clear"></div>
         <?php echo $form->error($notation,'note'); ?>
     </div>
+    <div class="row">
+        <?php echo $form->labelEx($record,'language'); ?>
+        <ul class="notes-echelle">
+            <?php foreach (Yii::app()->params['languages'] as $language => $displayLanguage) {?>
+            <li>
+                <label for="lng-<?php echo $language;?>" title="<?php echo $displayLanguage ?>">&nbsp;</label>
+                <input type="radio" name="Record[language]" id="lng-<?php echo $language;?>" value="<?php echo $language;?>" />
+            </li>
+        <?php } ?>
+        </ul>
+        <div class="clear"></div>
+        <?php echo $form->error($record,'language'); ?>
+    </div>
     <div>TODO select language (preselected is $_GET['language'])</div>
     <div class="row buttons">
-        <?php echo CHtml::submitButton('Add'); ?>
+        <?php echo CHtml::submitButton(Yii::t('main', 'Add')); ?>
     </div>
     <?php $this->endWidget(); ?>
 </div>
@@ -63,7 +76,7 @@ should you have any questions.</p-->
 <h1>TODO</h1>
 <fieldset>
 <div><input type="text" name="f" value="" id="thesearchbox" autocomplete="off"><ul class="autocomplete"></ul></div> 
-<div><input type="submit" value="Search" id="thesearchbutton"></div>
+<div><input type="submit" value="<?php echo Yii::t('main', 'Search');?>" id="thesearchbutton"></div>
 </fieldset>
 <hr>
 <?php 
@@ -77,17 +90,18 @@ should you have any questions.</p-->
         ),         
         array(           
             'name'=>'authorName',
+            'header'=>Yii::t('main', 'Author'),
             'type' => 'html',
             'value'=>'CHtml::link($data->author->username, array("/user/user/view/id/".$data->author->id))',
         ),
         array(           
             'name'=>'noteAvg',
-            'header' => 'Notes Average',
+            'header' => Yii::t('main', 'Notes Average'),
             'value'=> array($this, 'getStartsNotation'),
         ),
         array(           
             'name'=>'noteNb',
-            'header' => 'Number of notes',
+            'header' => Yii::t('main', 'Number of notes'),
             'value'=> '$data->noteNb',
         ),
     ),

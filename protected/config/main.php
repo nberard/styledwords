@@ -126,7 +126,7 @@ return array(
         // this is used in contact page
         'adminEmail'=>'berard.nicolas@gmail.com',
         'languages' => array(
-            'fr' => 'Français',
+            'fr' => 'FranÃ§ais',
             'en' => 'English',
         ),
     ),

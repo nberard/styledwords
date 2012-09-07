@@ -4,9 +4,7 @@ Yii::import('application.models._base.BaseRecord');
 
 class Record extends BaseRecord
 {
-    const pageSize = 10;
-    const LNG_FR = 'FR';
-    const LNG_EN = 'EN';
+    const pageSize = 2;
     
 	public static function model($className=__CLASS__) {
 		return parent::model($className);
@@ -19,6 +17,7 @@ class Record extends BaseRecord
 	       if($parentRule[1] == 'required') 
 	           $parentRule[0] = str_replace(array('created_at, ', 'created_at'), '', $parentRule[0]);
 	    return array_merge($parentRules, array(
+	       array('language', 'in', 'range'=>array_keys(Yii::app()->params['languages'])),
            array('record', 'ext.validators.recordRegex'),
            array('record', 'ext.validators.recordExists'),
         ));
@@ -41,6 +40,7 @@ class Record extends BaseRecord
     public function attributeLabels() 
     {
         $attributeLabels = parent::attributeLabels();
+        $attributeLabels['record'] = Yii::t('main', 'Record');
         $attributeLabels['author_id'] = Yii::t('app', 'Author ID');
         return $attributeLabels;
     }
