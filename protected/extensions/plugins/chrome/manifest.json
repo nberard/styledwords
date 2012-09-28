@@ -1,12 +1,7 @@
 ﻿{
-  "name": "Environnement de développement",
+  "name": "styledWords Inside",
   "version": "1.0",
   "background": { "scripts": ["background.js"] },
-  "permissions": [
-    "tabs", "http://*/*"
-  ],
-  "browser_action": {
-      "name": "Cliquer pour changer d'environnement"
-  },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "permissions": ["contextMenus"]
 }

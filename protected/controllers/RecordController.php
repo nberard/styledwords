@@ -2,11 +2,26 @@
 
 class RecordController extends Controller
 {
+
+    const ADD_RECORD_OK = "OK";
+    const ADD_RECORD_NOTE = "NOTE";
+    const ADD_RECORD_ERROR = "ERROR";
+
+
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+
+    public function beforeAction($action)
+    {
+        if (true === Yii::app()->request->isAjaxRequest)
+        {
+            define('YII_DEBUG',false);
+        }
+        return true;
+    }
 
 	/**
 	 * @return array action filters
@@ -32,7 +47,7 @@ class RecordController extends Controller
                 'users'=>array('@'),
             ),
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','create','update','admin','delete'),
+				'actions'=>array('index','view','create','update','admin','delete', 'ajaxAdd'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -139,58 +154,83 @@ class RecordController extends Controller
 		));
 	}
 
+
+    public function addCommon($recordModel, $notationModel)
+    {
+        if($recordModel->save())
+        {
+            if($notationModel->save())
+            {
+                return array('code' => self::ADD_RECORD_OK);
+            }
+        }
+        else
+        {
+            $recordInDB = $recordModel->findByAttributes(array('record' => $recordModel->record));
+            if($recordInDB != null)
+            {
+                $notationModel->record_id = $recordInDB->id;
+                if($notationModel->save())
+                {
+                    return array('code' => self::ADD_RECORD_NOTE);
+                }
+            }
+        }
+        return array(
+            'code' => self::ADD_RECORD_ERROR,
+            'errors' => array_merge($recordModel->getErrors(), $notationModel->getErrors()),
+        );
+    }
+
+    public function actionAjaxAdd()
+    {
+        var_dump($_POST);
+    }
+
     public function actionAdd()
     {
         $recordModel = new Record;
         $notationModel = new Notation;
         $recordModel->record = $_POST['Record']['record'];
         $recordModel->language = $_POST['Record']['language'];
-        $notationModel->note = isset($_POST['Notation']['note']) ? $_POST['Notation']['note'] : '';
-//        Yii::trace("_POST=".var_export($_POST, true)."", "nico");
         $recordModel->author_id = Yii::app()->user->id;
-        if($recordModel->save())
+        $notationModel->note = isset($_POST['Notation']['note']) ? $_POST['Notation']['note'] : '';
+        $notationModel->note = $_POST['Notation']['note'];
+        $notationModel->user_id = Yii::app()->user->id;
+
+        $return = $this->addCommon($recordModel, $notationModel);
+        if($return['code'] === self::ADD_RECORD_OK)
         {
-            $notationModel->note = $_POST['Notation']['note'];
-            $notationModel->user_id = Yii::app()->user->id;
-            $notationModel->record_id = $recordModel->id;
-            Yii::trace("recordModel id=".var_export($recordModel->id, true)."", "nico");
-            if($notationModel->save())
+            Yii::app()->user->setFlash('success', Yii::t('main', "Record successfuly added"));
+            $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
+        }
+        elseif($return['code'] === self::ADD_RECORD_NOTE)
+        {
+            Yii::app()->user->setFlash('success', Yii::t('main', "This record was already existing, your note has been added"));
+            $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
+        }
+        elseif($return['code'] === self::ADD_RECORD_ERROR)
+        {
+            $errorMessage = "Error adding your record";
+            if(count($return['errors']) > 0)
             {
-                Yii::app()->user->setFlash('success', Yii::t('main', "Record successfuly added")); 
-                $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
+                $errorMessage.=": <br/>";
+                foreach($return['errors'] as $model => $errorsModel)
+                {
+                    foreach ($errorsModel as $errorModel)
+                    {
+                        $errorMessage.=$errorModel." ; ";
+                    }
+                }
+                $errorMessage = substr($errorMessage, 0, -3);
             }
+            Yii::app()->user->setFlash('error', $errorMessage);
+            $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
         }
-        else 
+        else
         {
-            $recordInDB = $recordModel->findByAttributes(array('record' => $_POST['Record']['record']));
-            if($recordInDB != null)
-            {
-                $notationModel->user_id = Yii::app()->user->id;
-                $notationModel->record_id = $recordInDB->id;
-                Yii::trace("recordModel id=".var_export($recordInDB->id, true)."", "nico");
-                if($notationModel->save())
-                {
-                    Yii::app()->user->setFlash('success', Yii::t('main', "This record was already existing, your note has been added")); 
-                    $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
-                }
-            }            
+            throw new Exception("Unimplemented call");
         }
-        $errorMessage = "Error adding your record";
-        if(count($errors = array_merge($recordModel->getErrors(), $notationModel->getErrors())) > 0)
-        {
-            $errorMessage.=": <br/>";
-            foreach($errors as $model => $errorsModel)
-            {
-                foreach ($errorsModel as $errorModel)
-                {
-                    $errorMessage.=$errorModel." ; ";                
-                }
-            }   
-            $errorMessage = substr($errorMessage, 0, -3);
-        }
-//        Yii::trace("res=".var_export($recordModel->getErrors(), true)."", "nico");
-        Yii::app()->user->setFlash('error', $errorMessage);
-        $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
     }
 	
 	public function actionShow($id)
