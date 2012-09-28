@@ -16,7 +16,7 @@ class SiteController extends Controller
                 'users'=>array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions'=>array('addRecord', 'logout'),
+                'actions'=>array('logout'),
                 'users'=>array('@'),
             ),
             array('deny',  // deny all users
@@ -24,60 +24,7 @@ class SiteController extends Controller
             ),
         );
     }
-    
-    public function actionAddRecord()
-    {
-        $recordModel = new Record;
-        $notationModel = new Notation;
-        $recordModel->record = $_POST['Record']['record'];
-        $notationModel->note = isset($_POST['Notation']['note']) ? $_POST['Notation']['note'] : '';
-//        Yii::trace("_POST=".var_export($_POST, true)."", "nico");
-        $recordModel->author_id = Yii::app()->user->id;
-        if($recordModel->save())
-        {
-            $notationModel->note = $_POST['Notation']['note'];
-            $notationModel->user_id = Yii::app()->user->id;
-            $notationModel->record_id = $recordModel->id;
-            Yii::trace("recordModel id=".var_export($recordModel->id, true)."", "nico");
-            if($notationModel->save())
-            {
-                Yii::app()->user->setFlash('success', "Record successfuly added"); 
-                $this->redirect(Yii::app()->baseUrl.'/');
-            }
-        }
-        else 
-        {
-            $recordInDB = $recordModel->findByAttributes(array('record' => $_POST['Record']['record']));
-            if($recordInDB != null)
-            {
-                $notationModel->user_id = Yii::app()->user->id;
-                $notationModel->record_id = $recordInDB->id;
-                Yii::trace("recordModel id=".var_export($recordInDB->id, true)."", "nico");
-                if($notationModel->save())
-                {
-                    Yii::app()->user->setFlash('success', "This record was already existing, your note has been added"); 
-                    $this->redirect(Yii::app()->baseUrl.'/');
-                }
-            }            
-        }
-        $errorMessage = "Error adding your record";
-        if(count($errors = array_merge($recordModel->getErrors(), $notationModel->getErrors())) > 0)
-        {
-            $errorMessage.=": <br/>";
-            foreach($errors as $model => $errorsModel)
-            {
-                foreach ($errorsModel as $errorModel)
-                {
-                    $errorMessage.=$errorModel." ; ";                
-                }
-            }   
-            $errorMessage = substr($errorMessage, 0, -3);
-        }
-//        Yii::trace("res=".var_export($recordModel->getErrors(), true)."", "nico");
-        Yii::app()->user->setFlash('error', $errorMessage);
-        $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
-    }
-    
+          
     public function getStartsNotation($data, $row)
     {   
         return $this->renderPartial('/site/_notation_stars',
@@ -87,7 +34,7 @@ class SiteController extends Controller
                                         'note' => round($data->noteAvg, 2),
                                     ));                                    
     }
-    
+   
 	/**
 	 * Declares class-based actions.
 	 */

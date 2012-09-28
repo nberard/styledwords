@@ -28,7 +28,7 @@ class RecordController extends Controller
 	{
 		return array(
 		    array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions'=>array('show'),
+                'actions'=>array('show', 'add'),
                 'users'=>array('@'),
             ),
 			array('allow',  // allow all users to perform 'index' and 'view' actions
@@ -138,6 +138,60 @@ class RecordController extends Controller
 			'model'=>$model,
 		));
 	}
+
+    public function actionAdd()
+    {
+        $recordModel = new Record;
+        $notationModel = new Notation;
+        $recordModel->record = $_POST['Record']['record'];
+        $recordModel->language = $_POST['Record']['language'];
+        $notationModel->note = isset($_POST['Notation']['note']) ? $_POST['Notation']['note'] : '';
+//        Yii::trace("_POST=".var_export($_POST, true)."", "nico");
+        $recordModel->author_id = Yii::app()->user->id;
+        if($recordModel->save())
+        {
+            $notationModel->note = $_POST['Notation']['note'];
+            $notationModel->user_id = Yii::app()->user->id;
+            $notationModel->record_id = $recordModel->id;
+            Yii::trace("recordModel id=".var_export($recordModel->id, true)."", "nico");
+            if($notationModel->save())
+            {
+                Yii::app()->user->setFlash('success', Yii::t('main', "Record successfuly added")); 
+                $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
+            }
+        }
+        else 
+        {
+            $recordInDB = $recordModel->findByAttributes(array('record' => $_POST['Record']['record']));
+            if($recordInDB != null)
+            {
+                $notationModel->user_id = Yii::app()->user->id;
+                $notationModel->record_id = $recordInDB->id;
+                Yii::trace("recordModel id=".var_export($recordInDB->id, true)."", "nico");
+                if($notationModel->save())
+                {
+                    Yii::app()->user->setFlash('success', Yii::t('main', "This record was already existing, your note has been added")); 
+                    $this->redirect(Yii::app()->baseUrl.'/'.Yii::app()->language);
+                }
+            }            
+        }
+        $errorMessage = "Error adding your record";
+        if(count($errors = array_merge($recordModel->getErrors(), $notationModel->getErrors())) > 0)
+        {
+            $errorMessage.=": <br/>";
+            foreach($errors as $model => $errorsModel)
+            {
+                foreach ($errorsModel as $errorModel)
+                {
+                    $errorMessage.=$errorModel." ; ";                
+                }
+            }   
+            $errorMessage = substr($errorMessage, 0, -3);
+        }
+//        Yii::trace("res=".var_export($recordModel->getErrors(), true)."", "nico");
+        Yii::app()->user->setFlash('error', $errorMessage);
+        $this->render('index', array('record' => $recordModel, 'notation' => $notationModel));
+    }
 	
 	public function actionShow($id)
 	{
@@ -148,7 +202,16 @@ class RecordController extends Controller
 	    }
 	    else 
 	    {
-	        $this->render('show', array('model' => $record));
+	        $hasNotRated = true;
+	        foreach($record->notations as $notation) 
+	        {
+	           if($notation->user->id == Yii::app()->user->id)
+	           {
+	               $hasNotRated = false;
+	               break;
+	           }
+	        }
+	        $this->render('show', array('model' => $record, 'hasNotRated' => $hasNotRated, 'notationModel' => Notation::model()));
 	    }
 	}
 

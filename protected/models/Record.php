@@ -4,7 +4,7 @@ Yii::import('application.models._base.BaseRecord');
 
 class Record extends BaseRecord
 {
-    const pageSize = 2;
+    const pageSize = 10;
     
 	public static function model($className=__CLASS__) {
 		return parent::model($className);
@@ -62,13 +62,15 @@ class Record extends BaseRecord
               'desc'=>'noteAvg DESC',
             ),
             'record',
+            'language',
         );
         $sort->defaultOrder = 'noteAvg DESC';
         $criteria = new CDbCriteria;
         $criteria->together = true;
         $criteria->select = 'AVG(note) as noteAvg,
                              COUNT(notations.id) as noteNb,
-                             record.record';
+                             record.record, 
+                             record.language';
         $criteria->group = 'record_id';
         $criteria->with = array('author', 'notations');
         return new CActiveDataProvider('Record', array(

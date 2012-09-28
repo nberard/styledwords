@@ -18,4 +18,13 @@ $(document).ready(function(){
 		// On simule (trigger) un mouseover sur la note cochée s'il y a lieu
 		$(this).find("li input:checked").parent("li").trigger("mouseover");
 	});
+	
+	if($("ul.languages li label").length)
+	{
+		$("ul.languages li label").click(function(e) {
+			$("ul.languages li label").removeClass('selected');
+			$("#"+e.target.id).addClass('selected');
+			$("ul.languages li input").attr('checked', false);
+		});
+	}
 });

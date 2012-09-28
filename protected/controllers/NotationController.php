@@ -27,6 +27,10 @@ class NotationController extends Controller
 	public function accessRules()
 	{
 		return array(
+		  array('allow', // allow authenticated user to perform 'show' and 'add' actions
+                'actions'=>array('add'),
+                'users'=>array('@'),
+            ),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete', 'index','view', 'create','update'),
 				'users'=>array('admin'),
@@ -134,6 +138,25 @@ class NotationController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+    public function actionAdd()
+    {
+        if(!Yii::app()->user->isGuest && isset($_POST['Record']['record_id']) && isset($_POST['Notation']['note']))
+        {
+            $notationModel = new Notation;
+            $notationModel->record_id = $_POST['Record']['record_id'];
+            $notationModel->user_id = Yii::app()->user->id;
+            $notationModel->note = $_POST['Notation']['note'];
+            if($notationModel->save())
+            {
+                Yii::app()->user->setFlash('success', Yii::t('main', "Your notation has been successfully added"));
+                $this->redirect(Yii::app()->request->urlReferrer);                
+            }
+        }
+        Yii::app()->user->setFlash('error', Yii::t('main', 'Your notation cannot be added'));
+        $returnUrl = empty(Yii::app()->request->urlReferrer) ? Yii::app()->baseUrl : Yii::app()->request->urlReferrer;
+        $this->redirect($returnUrl);
+    }
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

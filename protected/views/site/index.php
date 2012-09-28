@@ -1,33 +1,21 @@
 <?php
 /* @var $this SiteController */
-Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/index.js');
+Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/form.js');
 Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/list.css'); 
 $this->pageTitle=Yii::app()->name;
 ?>
 <h1><?php echo Yii::t('main', 'Welcome to'); ?> <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
-<!-- p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p-->
-
 <?php if(!Yii::app()->user->isGuest) { ?>
 <div class="form">
     <?php $form=$this->beginWidget('CActiveForm', array(
         'id'=>'form-add-record',
-        'action'=>Yii::app()->baseUrl.'/site/addRecord',
+        'action'=>Yii::app()->baseUrl.'/'.$_GET['language'].'/record/add',
         'enableClientValidation'=>true,
         'clientOptions'=>array(
             'validateOnSubmit'=>true,
         ),
+        'focus'=>array($record,'record'),
     )); ?>
     <div class="row">
          <?php echo $form->labelEx($record,'record'); ?>
@@ -49,20 +37,19 @@ should you have any questions.</p-->
     </div>
     <div class="row">
         <?php echo $form->labelEx($record,'language'); ?>
-        <ul class="notes-echelle">
+        <ul class="languages">
             <?php foreach (Yii::app()->params['languages'] as $language => $displayLanguage) {?>
             <li>
-                <label for="lng-<?php echo $language;?>" title="<?php echo $displayLanguage ?>">&nbsp;</label>
-                <input type="radio" name="Record[language]" id="lng-<?php echo $language;?>" value="<?php echo $language;?>" />
+                <label for="lng-<?php echo $language;?>" id="label-lng-<?php echo $language;?>" title="<?php echo $displayLanguage ?>" <?php echo $_GET['language'] == $language ? " class='selected'" : ""?> >&nbsp;</label>
+                <input type="radio" name="Record[language]" id="lng-<?php echo $language;?>" value="<?php echo $language;?>" <?php echo $_GET['language'] == $language ? " checked='checked'" : ""?> />
             </li>
         <?php } ?>
         </ul>
         <div class="clear"></div>
         <?php echo $form->error($record,'language'); ?>
     </div>
-    <div>TODO select language (preselected is $_GET['language'])</div>
     <div class="row buttons">
-        <?php echo CHtml::submitButton(Yii::t('main', 'Add')); ?>
+        <?php echo CHtml::submitButton(Yii::t('main', Yii::t('main', 'Add'))); ?>
     </div>
     <?php $this->endWidget(); ?>
 </div>
@@ -81,13 +68,20 @@ should you have any questions.</p-->
 <hr>
 <?php 
     $this->widget('zii.widgets.grid.CGridView', array(
+    'id' => 'list-records', 
     'dataProvider'=> $record->search(),
     'columns'=>array(
+        array(           
+            'name'=>'language',
+            'header' => 'Lng',
+            'type' => 'html',
+            'value'=> 'CHtml::tag("div", array("class" => "lng-".$data->language))',
+        ),
         array(           
             'name'=>'record',
             'type' => 'html',
             'value'=>'CHtml::link($data->record, array("/record/show/id/".$data->id))',
-        ),         
+        ),       
         array(           
             'name'=>'authorName',
             'header'=>Yii::t('main', 'Author'),

@@ -36,7 +36,7 @@
 				array('label'=>Yii::t('main', 'Register'), 'url'=>array('/user/registration'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/registration/registration'),
 				array('label'=>Yii::t('main', 'Login'), 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest, 'active' => $this->route === 'user/login/login'),
 				array('label'=>Yii::t('main', 'My Profile'), 'url'=>array('/user/profile'), 'visible'=>!Yii::app()->user->isGuest, 'active' => $this->route === 'user/profile/profile'),
-				array('label'=>Yii::t('main', 'Logout ({username})', array('{username}' => Yii::app()->user->username)), 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>Yii::t('main', 'Logout ({username})', array('{username}' => !Yii::app()->user->isGuest ? Yii::app()->user->username : '')), 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 //				array('label'=>Yii::t('main', 'test ({username})', array('{username}' => Yii::app()->user->username)), 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 			),
 		)); ?>
