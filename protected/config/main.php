@@ -21,7 +21,7 @@ return array(
 		'application.components.*',
         'application.modules.user.models.*',
         'application.modules.user.components.*',
-        'ext.giix-components.*', // giix components
+        'ext.giix.components.*', // giix components
 	),
 
 	'modules'=>array(
@@ -33,7 +33,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 	        'generatorPaths' => array(
-                'ext.giix-core', // giix generators
+                'ext.giix.generators', // giix generators
             ),
 		),
 		'user'=>array(
