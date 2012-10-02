@@ -1,3 +1,6 @@
 [submodule "protected/modules/user"]
 	path = protected/modules/user
 	url = https://github.com/mishamx/yii-user.git
+[submodule "protected/extensions/giix"]
+	path = protected/extensions/giix
+	url = https://github.com/rcoelho/giix.git
